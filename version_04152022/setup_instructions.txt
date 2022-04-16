@@ -1,0 +1,12 @@
+##### README - G-DSI reconstruction
+
+Expects to find the following in the input directory:
+
+	data.nii.gz - DWI 
+	nodif_brain_mask.nii.gz - binary brain mask
+	bvecs
+	bvals
+	acqspecs.txt - diffusion acquisition parameters (big delta, small delta, is-shelled, etc)
+	gdsiparams.txt - optional text file specifying recon options
+	
+
